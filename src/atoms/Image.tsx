@@ -1,3 +1,7 @@
+/**
+ * 犬の写真1枚のパーツ
+ * @author K.Kento
+ */
 function Image(props: { url: string }) {
   return (
     <div className="card">

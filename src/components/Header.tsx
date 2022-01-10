@@ -1,3 +1,7 @@
+/**
+ * ヘッダーのコンポーネント
+ * @author K.Kento
+ */
 function Header() {
   return (
     <header className="hero is-dark is-bold">

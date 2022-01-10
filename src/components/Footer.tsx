@@ -1,3 +1,7 @@
+/**
+ * フッターのコンポーネント
+ * @author K.Kento
+ */
 function Footer() {
   return (
     <footer className="footer">

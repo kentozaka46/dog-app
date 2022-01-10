@@ -1,9 +1,15 @@
+/**
+ * 犬種を選ぶフォーム
+ * @author K.Kento
+ */
 function Form(props: { onFormSubmit: (breed: string) => void }) {
+  // 読み込むボタンが押された時に、犬種の情報をAPIに送る処理
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
     const { breed } = event.currentTarget
     props.onFormSubmit(breed.value)
   }
+
   return (
     <div>
       <form onSubmit={(event) => handleSubmit(event)}>
