@@ -18,7 +18,7 @@ function Form(props: { onFormSubmit: (breed: string) => void }) {
           </div>
           <div className="control">
             <button type="submit" className="button is-dark">
-              Reload
+              読み込む
             </button>
           </div>
         </div>
